@@ -25,6 +25,7 @@ docker volume create mariadb_volume
 
 * MARIADB_USER
 * MARIADB_PASSWORD
+* MARIADB_ROOT_PASSWORD é obrigatória de ser informada
 
 **4) Outra questão importante. É especificarmos o port bind para indicar qual porta será usada para rodar o nosso container a ser criado. O Maria Db utiliza a porta 3808**
 
